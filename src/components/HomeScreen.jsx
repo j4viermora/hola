@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const HomeScreen = () => {
     return (
         <>
@@ -13,15 +14,15 @@ const HomeScreen = () => {
                     </h1>
                     <div className="subheading mb-5">
                         Puerto La Cruz Venezuela · (+58) 412-878 69 53 ·
-                        <a href="mailto:name@email.com">Javier@expressativo.com</a>
+                        <a rel="correo electronico javier mora" href="mailto:name@email.com">Javier@expressativo.com</a>
                     </div>
-                    <p className="lead mb-5">Hola, me llamo Javier y soy Diseñador Web y Desarrollador front-end, si estás aquí no te aburrire contandote una historia muy larga, hace unos años atras conocí el Diseño Web y desde ese día no he parado de hacer webs, más abajo te cuento que habiliades tengo y en bahance puedes encontrar algunos de mis trabajos.</p>
+                    <p className="lead mb-5">Hola, me llamo Javier y soy Diseñador Web y Desarrollador front-end, si estás aquí no te aburriré contandote una historia muy larga, hace unos años atras conocí el Diseño Web y desde ese día no he parado de hacer webs, más abajo te cuento que habiliades tengo y en bahance puedes encontrar algunos de mis trabajos.</p>
                     <div className="social-icons">
-                        <a className="social-icon"  target="_blank" href="https://www.linkedin.com/in/javier-mora-020a41195/" ><i className="fab fa-linkedin-in"></i></a>
-                        <a className="social-icon"  target="_blank" href="https://www.behance.net/j4viermoragil" ><i className="fab fa-behance"></i></a>
-                        <a className="social-icon" target="_blank" href="https://github.com/j4viermora"><i className="fab fa-github" ></i></a>
-                        <a className="social-icon" target="_blank" href="https://twitter.com/j4viermora"><i className="fab fa-twitter" ></i></a>
-                        <a className="social-icon" target="_blank" href="https://www.facebook.com/j4viermora"><i className="fab fa-facebook-f" ></i></a>
+                        <a className="social-icon"  target="_blank" href="https://www.linkedin.com/in/javier-mora-020a41195/"  rel="noreferrer"  ><i className="fab fa-linkedin-in"></i></a>
+                        <a className="social-icon"  target="_blank" href="https://www.behance.net/j4viermoragil" rel="noreferrer"  ><i className="fab fa-behance"></i></a>
+                        <a className="social-icon" target="_blank" href="https://github.com/j4viermora" rel="noreferrer" ><i className="fab fa-github" ></i></a>
+                        <a className="social-icon" target="_blank" href="https://twitter.com/j4viermora" rel="noreferrer" ><i className="fab fa-twitter" ></i></a>
+                        <a className="social-icon" target="_blank" href="https://www.facebook.com/j4viermora" rel="noreferrer" ><i className="fab fa-facebook-f" ></i></a>
                     </div>
                 </div>
             </section>
@@ -51,19 +52,12 @@ const HomeScreen = () => {
                             <h3 className="mb-0">Administrador de sistemas</h3>
                             <div className="subheading mb-3"><a href="http://serviciointeligente.com.ve/" target="_blank"> Servicios inteligentes </a></div>
                             <p>
-                                Trabaje por seis meses en la administración de sistemas en la división de Robotica Educativa para Servicios inteligentes, en ella me encargaba de administrar y mantener los computadores de los laboratorios, y descubrí que administrar sistema no era lo mío y que prefería crear cosas.
+                                Trabaje seis meses en la administración de sistemas en la división de Robotica Educativa para Servicios inteligentes, en ella me encargaba de administrar y mantener los computadores de los laboratorios, y descubrí que administrar sistema no era lo mío y que prefería crear cosas.
                             </p>
                         </div>
                         <div className="flex-shrink-0"><span className="text-primary">Julio 2019 - Enero 2020</span></div>
                     </div>
-                    {/* <div className="d-flex flex-column flex-md-row justify-content-between">
-                        <div className="flex-grow-1">
-                            <h3 className="mb-0">Web Design Intern</h3>
-                            <div className="subheading mb-3">Shout! Media Productions</div>
-                            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-                        </div>
-                        <div className="flex-shrink-0"><span className="text-primary">September 2008 - June 2010</span></div>
-                    </div> */}
+              
                 </div>
             </section>
             <hr className="m-0" />
@@ -75,15 +69,14 @@ const HomeScreen = () => {
                         <div className="flex-grow-1">
                             <h3 className="mb-0">U.E.P Luis Pastori</h3>
                             <div className="subheading mb-3">Bachiller en Ciencias</div>
-                            {/* <!-- <div>Computer Science - Web Development Track</div>
-                            <p>GPA: 3.23</p> --> */}
+                           
                         </div>
                         <div className="flex-shrink-0"><span className="text-primary">Septiembre 2009 - Jun 2014</span></div>
                     </div>
                     <div className="d-flex flex-column flex-md-row justify-content-between">
                         <div className="flex-grow-1">
                             <h3 className="mb-0">Autoditacta</h3>
-                            <div className="subheading mb-3">Technology Magnet Program</div>
+                            <div className="subheading mb-3"> TI </div>
                         </div>
                         <div className="flex-shrink-0"><span className="text-primary">2017 - Actualidad</span></div>
                     </div>
@@ -100,11 +93,8 @@ const HomeScreen = () => {
                         <li className="list-inline-item"><i className="fab fa-html5"></i></li>
                         <li className="list-inline-item"><i className="fab fa-css3-alt"></i></li>
                         <li className="list-inline-item"><i className="fab fa-js-square"></i></li>
-                        {/* <li className="list-inline-item"><i className="fab fa-angular"></i></li> */}
                         <li className="list-inline-item"><i className="fab fa-shopify"></i></li>
                         <li className="list-inline-item"><i className="fab fa-node-js"></i></li>
-                        {/* <li className="list-inline-item"><i className="fab fa-sass"></i></li> */}
-                        {/* <li className="list-inline-item"><i className="fab fa-less"></i></li> */}
                         <li className="list-inline-item"><i className="fab fa-wordpress"></i></li>
                         <li className="list-inline-item"><i className="fab fa-drupal"></i></li>
                         <li className="list-inline-item"><i className="fab fa-npm"></i></li>
@@ -120,7 +110,7 @@ const HomeScreen = () => {
                         </li>
                         <li>
                             <span className="fa-li"><i className="fas fa-check"></i></span>
-                            Maquetado Adobe XD
+                            Maquetado de interfaces Adobe XD
                         </li>
                         <li>
                             <span className="fa-li"><i className="fas fa-check"></i></span>
@@ -128,7 +118,7 @@ const HomeScreen = () => {
                         </li>
                         <li>
                             <span className="fa-li"><i className="fas fa-check"></i></span>
-                            Herramientas de gestion de proyectos Asana, Trello
+                            Herramientas de gestión de proyectos Asana, Trello
                         </li>
                     </ul>
                 </div>
@@ -150,11 +140,11 @@ const HomeScreen = () => {
                     <ul className="fa-ul mb-0">
                         <li>
                             <span className="fa-li"><i className="fas fa-trophy text-warning"></i></span>
-                            Intrudocción al desarrollo web part I y II - Actívate Google
+                            Intruducción al desarrollo web part I y II - Actívate Google
                         </li>
                         <li>
                             <span className="fa-li"><i className="fas fa-trophy text-warning"></i></span>
-                            React Js - Udemy por Fernando Herrera
+                            React Hooks de cero a experto - Udemy por Fernando Herrera
                         </li>
                         <li>
                             <span className="fa-li"><i className="fas fa-trophy text-warning"></i></span>
@@ -168,20 +158,10 @@ const HomeScreen = () => {
                             <span className="fa-li"><i className="fas fa-trophy text-warning"></i></span>
                             Desarrollo de App moviles - Actívate Google
                         </li>
-                        {/* <li>
-                            <span className="fa-li"><i className="fas fa-trophy text-warning"></i></span>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li> */}
-                        {/* <li>
-                            <span className="fa-li"><i className="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
-                        </li> */}
                     </ul>
                 </div>
             </section>
-        </div>   
+        </div>  
         </>
     )
 }
