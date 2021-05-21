@@ -16,13 +16,13 @@ const HomeScreen = () => {
                         Puerto La Cruz Venezuela · (+58) 412-878 69 53 ·
                         <a rel="correo electronico javier mora" href="mailto:name@email.com">Javier@expressativo.com</a>
                     </div>
-                    <p className="lead mb-5">Hola, me llamo Javier y soy Diseñador Web y Desarrollador front-end, si estás aquí no te aburriré contandote una historia muy larga, hace unos años atras conocí el Diseño Web y desde ese día no he parado de hacer webs, más abajo te cuento que habiliades tengo y en bahance puedes encontrar algunos de mis trabajos.</p>
+                    <p className="lead mb-5">Hola me Llamo Javier Mora, soy Desarrollador y Diseñador web frontend, utilizo ReactJS en la creación de mis proyectos, soy amante de las nuevas tecnologías</p>
                     <div className="social-icons">
-                        <a className="social-icon"  target="_blank" href="https://www.linkedin.com/in/javier-mora-020a41195/"  rel="noreferrer"  ><i className="fab fa-linkedin-in"></i></a>
-                        <a className="social-icon"  target="_blank" href="https://www.behance.net/j4viermoragil" rel="noreferrer"  ><i className="fab fa-behance"></i></a>
-                        <a className="social-icon" target="_blank" href="https://github.com/j4viermora" rel="noreferrer" ><i className="fab fa-github" ></i></a>
-                        <a className="social-icon" target="_blank" href="https://twitter.com/j4viermora" rel="noreferrer" ><i className="fab fa-twitter" ></i></a>
-                        <a className="social-icon" target="_blank" href="https://www.facebook.com/j4viermora" rel="noreferrer" ><i className="fab fa-facebook-f" ></i></a>
+                        <a className="social-icon"  target="_blank" href="https://www.linkedin.com/in/javier-mora-020a41195/"  rel="noreferrer noopener"  ><i className="fab fa-linkedin-in"></i></a>
+                        <a className="social-icon"  target="_blank" href="https://www.behance.net/j4viermoragil" rel="noreferrer noopener"  ><i className="fab fa-behance"></i></a>
+                        <a className="social-icon" target="_blank" href="https://github.com/j4viermora" rel="noreferrer noopener" ><i className="fab fa-github" ></i></a>
+                        <a className="social-icon" target="_blank" href="https://twitter.com/j4viermora" rel="noreferrer noopener" ><i className="fab fa-twitter" ></i></a>
+                        <a className="social-icon" target="_blank" href="https://www.facebook.com/j4viermora" rel="noreferrer noopener" ><i className="fab fa-facebook-f" ></i></a>
                     </div>
                 </div>
             </section>
@@ -46,16 +46,6 @@ const HomeScreen = () => {
                             <p>Suelo compartir mi tiempo entre los proyectos de la agencia juntos a mis proyectos personales, algunos son clientes a la antigua llegaron porque alguien me recomendo, algunos son gracias a plataformas como Workana, lo cierto es que espero seguir atendiendo mis clientes por mucho tiempo</p>
                         </div>
                         <div className="flex-shrink-0"><span className="text-primary">December 20180 - Actualidad</span></div>
-                    </div>
-                    <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div className="flex-grow-1">
-                            <h3 className="mb-0">Administrador de sistemas</h3>
-                            <div className="subheading mb-3"><a href="http://serviciointeligente.com.ve/" target="_blank"> Servicios inteligentes </a></div>
-                            <p>
-                                Trabaje seis meses en la administración de sistemas en la división de Robotica Educativa para Servicios inteligentes, en ella me encargaba de administrar y mantener los computadores de los laboratorios, y descubrí que administrar sistema no era lo mío y que prefería crear cosas.
-                            </p>
-                        </div>
-                        <div className="flex-shrink-0"><span className="text-primary">Julio 2019 - Enero 2020</span></div>
                     </div>
               
                 </div>
@@ -93,10 +83,8 @@ const HomeScreen = () => {
                         <li className="list-inline-item"><i className="fab fa-html5"></i></li>
                         <li className="list-inline-item"><i className="fab fa-css3-alt"></i></li>
                         <li className="list-inline-item"><i className="fab fa-js-square"></i></li>
-                        <li className="list-inline-item"><i className="fab fa-shopify"></i></li>
                         <li className="list-inline-item"><i className="fab fa-node-js"></i></li>
                         <li className="list-inline-item"><i className="fab fa-wordpress"></i></li>
-                        <li className="list-inline-item"><i className="fab fa-drupal"></i></li>
                         <li className="list-inline-item"><i className="fab fa-npm"></i></li>
                         <li className="list-inline-item"><i className="fab fa-github"></i></li>
                         <li className="list-inline-item"><i className="fab fa-trello"></i></li>

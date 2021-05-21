@@ -33,7 +33,7 @@ const Sidebar = () => {
                 <span className="d-block d-lg-none">Javier A. Mora Gil</span>
                 <span className="d-none d-lg-block"><img 
                 className="img-fluid img-profile rounded-circle mx-auto mb-2" 
-                src="https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/143473083_5014367151969619_7238023881772849590_n.jpg?_nc_cat=103&ccb=2&_nc_sid=730e14&_nc_ohc=OLPufj0EVXkAX-Pru22&_nc_ht=scontent-mia3-2.xx&oh=b97e145861964e83561b5e9626eb03c7&oe=60386D27" 
+                src="https://scontent-lim1-1.xx.fbcdn.net/v/t1.6435-9/143473083_5014367151969619_7238023881772849590_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=730e14&_nc_ohc=-3fYbuqkFDIAX8Zy-S4&_nc_ht=scontent-lim1-1.xx&oh=b5014ee3f5b5913ee9a34304492cc14c&oe=60CD5DC6"
                 alt="Foto de perfil de facebook" /></span>
             </a>
             <button 
