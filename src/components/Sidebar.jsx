@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Link, animateScroll as scroll } from "react-scroll";
-import fotoDePerfil from '../data/Foto_de_perfil_1.jpg'
 
 const Sidebar = () => {
     
@@ -33,7 +32,7 @@ const Sidebar = () => {
                 <span className="d-block d-lg-none">Javier A. Mora Gil</span>
                 <span className="d-none d-lg-block"><img 
                 className="img-fluid img-profile rounded-circle mx-auto mb-2" 
-                src={ fotoDePerfil }
+                src="https://expressativo.com/wp-content/uploads/2021/06/Foto_de_perfil_1.jpg"
                 alt="Foto de perfil" /></span>
             </a>
             <button 
