@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import { Link, animateScroll as scroll } from "react-scroll";
+import fotoDePerfil from '../data/Foto_de_perfil_1.jpg'
 
 const Sidebar = () => {
     
     const [dropdown, setDropdown] = useState( false )
-   
 
     const HandleState = () => {
        
@@ -33,8 +33,8 @@ const Sidebar = () => {
                 <span className="d-block d-lg-none">Javier A. Mora Gil</span>
                 <span className="d-none d-lg-block"><img 
                 className="img-fluid img-profile rounded-circle mx-auto mb-2" 
-                src="https://scontent-lim1-1.xx.fbcdn.net/v/t1.6435-9/143473083_5014367151969619_7238023881772849590_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=730e14&_nc_ohc=-3fYbuqkFDIAX8Zy-S4&_nc_ht=scontent-lim1-1.xx&oh=b5014ee3f5b5913ee9a34304492cc14c&oe=60CD5DC6"
-                alt="Foto de perfil de facebook" /></span>
+                src={ fotoDePerfil }
+                alt="Foto de perfil" /></span>
             </a>
             <button 
             onClick = { handleCollapse } 
